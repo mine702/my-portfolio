@@ -21,6 +21,7 @@ const SkillsData = [
     { category: 'Frontend', skill: 'HTML5', proficiency: 50 },
     { category: 'Frontend', skill: 'Bootstrap', proficiency: 50 },
     { category: 'Frontend', skill: 'JavaScript', proficiency: 70 },
+    { category: 'Frontend', skill: 'FLUTTER', proficiency: 60 },
     { category: 'Frontend', skill: 'CSS3', proficiency: 50 },
 
     { category: 'Development Tools', skill: 'IntelliJ IDEA', proficiency: 80 },
