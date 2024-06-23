@@ -136,7 +136,7 @@ const Potless = ({ onClose }) => {
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Docker</td>
-                                            <td className="project-content">컨테이너 기술을 통해 일관된 실행 환경을 제공하며, 배포를 단순화합니다..</td>
+                                            <td className="project-content">컨테이너 기술을 통해 일관된 실행 환경을 제공하며, 배포를 단순화합니다.</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Jenkins</td>

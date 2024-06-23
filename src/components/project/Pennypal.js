@@ -388,7 +388,7 @@ const Pennypal = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">이 프로젝트는 SSAFY 에서 수행한 프로젝트 임으로 보안문제로 인해 개인 공유가 불가능 합니다 하지만 회사 입사시 제출 용으로는 제출 을 허락 받았으며 열람 하고 싶으신 분들은 연락 부탁드립니다</td>
+                                            <td className="project-subtitle">이 프로젝트는 SSAFY 에서 수행한 프로젝트 임으로 보안문제로 인해 개인 공유가 불가능 합니다 하지만 회사 입사시 제출 용으로는 제출 을 허락 받았으며 열람이 필요하신 분들은 연락 부탁드립니다</td>
                                         </tr>
                                     </tbody>
                                 </table>

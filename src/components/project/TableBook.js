@@ -1,13 +1,13 @@
 import React from 'react';
 import Slider from 'react-slick';
 import '../../css/Project.css';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import PotlessFirstClass from "../../assets/projects/potless/PotlessFirstClass.jpg"
-import PotlessMain from "../../assets/projects/potless/PotlessMain.png"
+import TableBook_1 from "../../assets/projects/tablebook/TableBook_1.png"
+import TableBook_2 from "../../assets/projects/tablebook/TableBook_2.png"
 const images = [
-    PotlessMain,
-    PotlessFirstClass, 
+    TableBook_1,
+    TableBook_2,
 ];
 
 const TableBook = ({ onClose }) => {
@@ -23,7 +23,7 @@ const TableBook = ({ onClose }) => {
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-container" onClick={(e) => e.stopPropagation()}>
-                <h2>Potless : 도로 파손 자동 탐지 및 통합 관리 시스템</h2>
+                <h2>Table Book : 3D 이미지를 활용한 식당 예약 웹 앱</h2>
                 <Slider {...settings}>
                     {images.map((image, index) => (
                         <div key={index} className="slider-image-container">
@@ -36,7 +36,7 @@ const TableBook = ({ onClose }) => {
                         <tr>
                             <td className="project-title">프로젝트 설명</td>
                             <td className="project-content">
-                                Potless는 도로 파손을 자동으로 탐지하고 이를 통합 관리하는 시스템입니다. 이 프로젝트는 onDevice AI를 활용한 포트홀 자동 탐지, 웹 통합 관리, 그리고 앱 작업자 관리 기능을 포함하고 있습니다. 추가적으로, 최적 경로 길찾기와 카카오 내비게이션 연동 기능을 제공합니다.
+                                Table Book은 사용자가 직접 좌석을 확인하고 선택하여 예약할 수 있는 식당 예약 웹 애플리케이션입니다. 일반적인 2D 이미지가 아닌 역동적인 3D 이미지를 활용하여 사용자가 선택한 좌석의 위치를 자세히 확인할 수 있습니다. 사용자는 회원가입 후 로그인을 통해 원하는 지역과 음식 카테고리를 선택하고, 식당을 예약할 수 있습니다. 사장님은 가게를 등록하고 예약을 관리할 수 있습니다.
                             </td>
                         </tr>
                         <tr>
@@ -45,20 +45,20 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">포트홀 자동 탐지</td>
-                                            <td className="project-content">onDevice AI를 사용하여 도로 파손을 실시간으로 탐지</td>
+                                            <td className="project-subtitle">3D 좌석 선택</td>
+                                            <td className="project-content">사용자가 3D 이미지를 통해 좌석을 확인하고 예약할 수 있도록 구현</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">웹 통합 관리</td>
-                                            <td className="project-content">웹 플랫폼을 통해 포트홀 데이터를 통합 관리</td>
+                                            <td className="project-subtitle">식당 리뷰 및 메뉴 확인</td>
+                                            <td className="project-content">식당 리뷰와 메뉴를 확인할 수 있는 기능 제공</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">앱 작업자 관리</td>
-                                            <td className="project-content">작업자들이 현장에서 포트홀 수리 작업을 관리하고 보고할 수 있는 앱 제공</td>
+                                            <td className="project-subtitle">예약 관리</td>
+                                            <td className="project-content">예약 내역을 확인하고 관리할 수 있는 기능 제공</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">최적 경로 길찾기</td>
-                                            <td className="project-content">카카오 내비게이션과 연동하여 포트홀 회피 경로 제공</td>
+                                            <td className="project-subtitle">사장님 기능</td>
+                                            <td className="project-content">가게 등록 및 예약 관리 기능 제공</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -70,8 +70,7 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">BACKEND 개발</td>
-                                            <td className="project-content">서버 로직, API 개발, 데이터베이스 설계 및 통합</td>
+                                            <td className="project-subtitle">FullStack 및 3D 모델링 담당</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -83,13 +82,13 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">Python Flask</td>
+                                            <td className="project-subtitle">React</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Spring Boot</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">Geospatial Analysis</td>
+                                            <td className="project-subtitle">Three.js</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Docker</td>
@@ -98,7 +97,16 @@ const TableBook = ({ onClose }) => {
                                             <td className="project-subtitle">Jenkins</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">GitLab</td>
+                                            <td className="project-subtitle">SketchUp</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">Unreal Engine</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">Ant Design</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">GitHub</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">SonarQube</td>
@@ -116,36 +124,44 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">Python Flask</td>
-                                            <td className="project-content">빠르고 가벼운 웹 프레임워크로, RESTful API 개발에 적합합니다.</td>
+                                            <td className="project-subtitle">React</td>
+                                            <td className="project-content">컴포넌트 기반의 빠르고 효율적인 UI 구현을 가능하게 하며, 변경된 데이터만 렌더링하여 성능을 최적화합니다.</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Spring Boot</td>
                                             <td className="project-content">자바 기반의 강력한 백엔드 프레임워크로, 엔터프라이즈급 애플리케이션 개발에 용이합니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">Geospatial Analysis</td>
-                                            <td className="project-content">공간 데이터를 효과적으로 처리하고 분석할 수 있는 도구입니다.</td>
+                                            <td className="project-subtitle">Three.js</td>
+                                            <td className="project-content">3D 그래픽을 웹에서 구현하기 위한 JavaScript 라이브러리입니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">SketchUp</td>
+                                            <td className="project-content">직관적인 3D 모델링 도구로, 건물 도면 제작에 용이합니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">Unreal Engine</td>
+                                            <td className="project-content">고품질의 애니메이션 및 이벤트를 추가할 수 있는 게임 엔진입니다.</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Docker</td>
-                                            <td className="project-content">컨테이너 기술을 통해 일관된 실행 환경을 제공하며, 배포를 단순화합니다..</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">Jenkins</td>
-                                            <td className="project-content">CI/CD 파이프라인을 구축하여 지속적인 통합과 배포를 자동화합니다.</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">GitLab</td>
-                                            <td className="project-content">소스 코드 관리 및 버전 컨트롤을 위한 플랫폼입니다.</td>
+                                            <td className="project-content">컨테이너 기술을 통해 일관된 실행 환경을 제공하며, 배포를 단순화합니다.</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">SonarQube</td>
                                             <td className="project-content">코드 품질 분석을 통해 버그와 취약성을 모니터링합니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">Gerrit</td>
-                                            <td className="project-content">코드 리뷰와 변경 사항 관리를 위한 도구입니다.</td>
+                                            <td className="project-subtitle">Jenkins</td>
+                                            <td className="project-content">CI/CD 파이프라인을 구축하여 지속적인 통합과 배포를 자동화합니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">GitHub</td>
+                                            <td className="project-content">소스 코드 관리 및 버전 컨트롤을 위한 플랫폼입니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">Ant Design</td>
+                                            <td className="project-content">고품질의 React UI 컴포넌트를 제공하는 디자인 시스템입니다.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -154,36 +170,28 @@ const TableBook = ({ onClose }) => {
                         <tr>
                             <td className="project-title">역할</td>
                             <td className="project-content">
-                                프로젝트의 백엔드 개발자로서, 서버 측 로직과 데이터베이스 통합을 통해 도로 파손 탐지 및 경고 시스템의 핵심 기능을 구현하였습니다. 주요 역할은 다음과 같습니다
+                                프로젝트의 풀스택 개발자 및 3D 모델링 담당자로서, 서버 측 로직과 데이터베이스 통합, 3D 모델링 및 애니메이션을 통해 식당 예약 시스템의 핵심 기능을 구현하였습니다. 주요 역할은 다음과 같습니다
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">Flask 서버 구축 및 API 개발</td>
-                                            <td className="project-content">Flask를 사용하여 백엔드 서버를 구축하고, 클라이언트 요청을 처리하는 API를 개발했습니다.</td>
+                                            <td className="project-subtitle">React 기반의 프론트엔드 개발</td>
+                                            <td className="project-content">React를 사용하여 사용자 인터페이스를 개발하고, Three.js를 활용하여 3D 모델을 웹 페이지에 표시했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">GeoJSON 파일 처리 및 H3 헥사곤 생성</td>
-                                            <td className="project-content">GeoPandas를 사용하여 GeoJSON 파일을 읽고, 도형 데이터를 H3 헥사곤 인덱스로 변환하는 기능을 개발했습니다.</td>
+                                            <td className="project-subtitle">3D 모델링 및 애니메이션</td>
+                                            <td className="project-content">SketchUp을 사용하여 건물 도면을 모델링하고, Unreal Engine을 통해 애니메이션 및 이벤트를 추가했습니다.</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Spring Boot 기반의 REST API 개발</td>
                                             <td className="project-content">Spring Boot를 사용하여 백엔드 API를 개발하고, 클라이언트 요청을 처리하는 컨트롤러를 구현했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">포트홀 데이터 관리</td>
-                                            <td className="project-content">DamageController를 통해 포트홀 데이터를 관리하는 여러 엔드포인트를 구현했습니다.</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">AWS S3 연동</td>
-                                            <td className="project-content">AwsService를 사용하여 AWS S3에 파일을 업로드하고, 업로드된 파일의 URL을 데이터베이스에 저장하는 기능을 구현했습니다.</td>
+                                            <td className="project-subtitle">MySQL 데이터베이스 통합 및 관리</td>
+                                            <td className="project-content">MySQL 데이터베이스와의 연동을 통해 사용자, 식당, 예약 데이터 등을 저장하고 조회하는 기능을 구현했습니다.</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">데이터베이스 통합 및 처리</td>
                                             <td className="project-content">MySQL 데이터베이스와의 연동을 통해 포트홀 데이터를 저장하고 조회하는 기능을 구현했습니다.</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">카카오 API 연동</td>
-                                            <td className="project-content">KakaoService를 사용하여 카카오 지도 API와 연동하고, 좌표 데이터를 받아오는 기능을 구현했습니다</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">비동기 처리</td>
@@ -201,14 +209,6 @@ const TableBook = ({ onClose }) => {
                                             <td className="project-subtitle">CI/CD 파이프라인 설정 (Jenkins)</td>
                                             <td className="project-content">Jenkins를 사용하여 CI/CD 파이프라인을 설정하고, 코드의 지속적인 통합과 배포를 자동화했습니다.</td>
                                         </tr>
-                                        <tr>
-                                            <td className="project-subtitle">Flutter 앱 개발</td>
-                                            <td className="project-content">카카오맵 api 를 활용하여 검증된 포트홀 정보와 통합해 네비게이션 기능 구현</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">워치 IOT 기능 개발</td>
-                                            <td className="project-content">사용자의 위치 정보와 검증된 포트홀 정보를 활용하여 주변 5미터 이내에 포트홀 감지시 알림 기능</td>
-                                        </tr>
                                     </tbody>
                                 </table>
                             </td>
@@ -219,28 +219,22 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">포트홀 데이터 조회 및 통계</td>
+                                            <td className="project-subtitle">이메일, 비밀번호, 소셜 로그인 기능을 통한 사용자 관리</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">도로 파손 정보 조회 및 통계 데이터 제공</td>
+                                            <td className="project-subtitle">회원가입 후 자동 로그인 및 프로필 설정 기능 구현</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">구별, 날짜별, 월별 통계 조회 기능</td>
+                                            <td className="project-subtitle">3D 모델을 활용한 좌석 선택 기능 구현</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">포트홀 데이터 삽입 및 관리</td>
+                                            <td className="project-subtitle">식당 리뷰 및 메뉴 확인 기능 구현</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">포트홀 데이터 수동 삽입 및 파일 업로드 기능</td>
+                                            <td className="project-subtitle">예약 관리 기능 구현</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">작업 중 사진 추가, 사진 변경, 작업 완료 사진 추가 기능</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">카카오 API 연동</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">카카오 지도 API를 통해 포트홀 위치 데이터 수집 및 처리</td>
+                                            <td className="project-subtitle">사장님 기능: 가게 등록 및 예약 관리 기능 구현</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">AWS S3 연동</td>
@@ -270,19 +264,7 @@ const TableBook = ({ onClose }) => {
                                             <td className="project-subtitle">협업 도구 사용</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">GitLab을 통한 소스 코드 관리</td>
-                                        </tr>
-                                        <tr>
                                             <td className="project-subtitle">SonarQube를 통한 코드 품질 분석</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">Gerrit을 통한 코드 리뷰 및 변경 관리</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">모바일 기기에서 카카오맵 API 와 포트홀 정보 활용 길찾기</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">워치를 활용 포트홀 정보 와 위치 기반 정보 활용 포트홀 알람</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -294,16 +276,12 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">평균 응답 시간 40% 단축</td>
-                                            <td className="project-content">Flask와 Spring 최적화를 통해 서버 응답 시간을 40% 줄여 사용자 경험을 크게 향상시켰습니다.</td>
+                                            <td className="project-subtitle">3D 모델링 및 애니메이션 도입</td>
+                                            <td className="project-content">스케치업과 언리얼 엔진을 활용한 3D 모델링 및 애니메이션 기술을 도입하여, 웹 애플리케이션의 시각적 완성도와 사용자 경험을 크게 향상시켰습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">비용 절감</td>
-                                            <td className="project-content">Docker를 통한 효율적인 자원 관리로 서버 유지 비용을 25% 절감했습니다.</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">지속적 배포로 출시 주기 단축</td>
-                                            <td className="project-content">Jenkins 기반의 CI/CD 파이프라인 구축으로 새로운 기능 출시 주기를 2주에서 1주로 단축하여 시장 대응력을 강화했습니다.</td>
+                                            <td className="project-subtitle">Spring Boot와 React의 효율적 통합</td>
+                                            <td className="project-content">백엔드(Spring Boot)와 프론트엔드(React)를 효율적으로 통합하여 빠르고 안정적인 서비스를 제공했습니다. 이로 인해 서버 응답 시간이 단축되었습니다.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -315,20 +293,49 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">성능 저하 문제</td>
-                                            <td className="project-content">초기 사용자 증가로 인해 서버 성능 저하 문제가 발생했습니다. 이를 해결하기 위해 Flask와 Spring의 캐시 기능을 도입하고, Nginx의 로드 밸런싱을 적용하여 처리 성능을 향상시켰습니다.</td>
+                                            <td className="project-subtitle">3D 모델링 및 애니메이션 퀄리티 문제 해결</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">데이터베이스 병목 현상</td>
-                                            <td className="project-content">데이터베이스 쿼리 최적화를 통해 병목 현상을 해결하고, 데이터 접근 속도를 개선했습니다. 또한, 데이터베이스 샤딩을 통해 확장성을 높였습니다.</td>
+                                            <td className="project-subtitle">문제 발생</td>
+                                            <td className="project-content">스케치업을 이용하여 3D 모델링을 한 후, 애니메이션과 이벤트를 추가하기 위해 언리얼 엔진으로 모델을 옮겼을 때 문제가 발생했습니다. 스케치업은 약간 만화 같은 3D 모델링 스타일을 제공하는 반면, 언리얼 엔진은 현실성을 높여주는 렌더링을 지원합니다. 이로 인해 모델이 언리얼 엔진으로 옮겨졌을 때, 예상했던 대로의 스타일과 퀄리티가 나오지 않았고, 퀄리티가 현저히 낮아지는 문제가 발생했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">빌드 시간 지연</td>
-                                            <td className="project-content">Jenkins의 병렬 빌드 기능과 Docker 이미지를 활용한 캐시 전략을 도입하여 전체 빌드 시간을 50% 단축했습니다.</td>
+                                            <td className="project-subtitle">해결 방법</td>
+                                            <td className="project-content">이 문제를 해결하기 위해 몇 가지 접근 방식을 시도했습니다. 먼저, 스케치업에서 언리얼 엔진으로 모델을 옮길 때 발생하는 스타일 차이를 줄이기 위해 스케치업 모델의 텍스처와 재질을 최대한 언리얼 엔진에 맞게 조정했습니다. 또한, 언리얼 엔진에서의 조명 설정과 쉐이더를 최적화하여 스케치업 스타일의 특성을 유지하면서도 언리얼 엔진의 고품질 렌더링 기능을 활용할 수 있도록 조정했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">컨테이너 오케스트레이션 문제</td>
-                                            <td className="project-content">Kubernetes 도입을 통해 Docker 컨테이너의 배포 및 관리 문제를 해결하고, 시스템의 확장성과 안정성을 높였습니다.</td>
+                                            <td className="project-subtitle">구체적인 해결 과정</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">모델 최적화</td>
+                                            <td className="project-content">스케치업에서 언리얼 엔진으로 모델을 옮길 때, 텍스처와 재질을 언리얼 엔진에 맞게 조정했습니다. 이는 텍스처 파일의 해상도를 조절하고, 재질 속성을 언리얼 엔진의 PBR(Material) 시스템에 맞추는 작업을 포함합니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">조명 설정</td>
+                                            <td className="project-content">언리얼 엔진에서 조명 설정을 최적화하여 모델의 외관을 개선했습니다. 이를 통해 모델의 세부 사항과 색상이 더 명확하게 드러나도록 했습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">쉐이더 조정</td>
+                                            <td className="project-content">언리얼 엔진의 고급 쉐이더 기능을 사용하여 모델의 텍스처와 재질을 더욱 현실감 있게 표현하도록 조정했습니다. 이는 스케치업의 만화 스타일을 유지하면서도 언리얼 엔진의 렌더링 능력을 최대한 활용할 수 있도록 했습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">결과</td>
+                                            <td className="project-content">이 해결책을 통해 3D 모델의 퀄리티 문제를 성공적으로 해결할 수 있었습니다. 스케치업의 만화 같은 스타일을 유지하면서도 언리얼 엔진의 고품질 렌더링 기능을 활용하여 모델의 외관을 개선했습니다. 이를 통해 사용자들에게 더욱 만족스러운 시각적 경험을 제공할 수 있었으며, 프로젝트의 전반적인 퀄리티를 높일 수 있었습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">실시간 3D 모델 로딩 문제 해결</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">문제 발생</td>
+                                            <td className="project-content">초기 단계에서 3D 모델의 로딩 시간이 길어 사용자 경험이 저하되는 문제가 발생했습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">해결 방법</td>
+                                            <td className="project-content">3D 모델의 최적화를 통해 파일 크기를 줄이고, 로딩 시간을 단축했습니다. Three.js의 Lazy Loading 기법을 사용하여 필요한 부분만 로딩하는 방식을 도입했습니다.</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">결과</td>
+                                            <td className="project-content">로딩 시간이 50% 단축되었고, 사용자 경험이 크게 개선되었습니다.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -340,24 +347,16 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">효율적인 자원 관리</td>
-                                            <td className="project-content">Docker와 Kubernetes를 활용한 컨테이너화 및 오케스트레이션을 통해 자원 관리의 중요성을 학습했습니다.</td>
+                                            <td className="project-subtitle">3D 모델링과 렌더링 기술의 차이 이해</td>
+                                            <td className="project-content">스케치업과 언리얼 엔진의 차이를 이해하는 과정에서 다양한 3D 모델링 툴의 특성과 장단점을 파악할 수 있었습니다. 스케치업은 직관적이고 빠르게 모델링을 할 수 있는 장점이 있지만, 언리얼 엔진처럼 고품질의 현실감 있는 렌더링을 지원하지 않는다는 점을 배웠습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">CI/CD의 가치</td>
-                                            <td className="project-content">Jenkins를 통해 지속적인 통합과 배포의 자동화가 개발 효율성과 품질 향상에 미치는 긍정적인 영향을 실감했습니다.</td>
+                                            <td className="project-subtitle">모델 최적화 및 재질 조정 기술 습득</td>
+                                            <td className="project-content">스케치업에서 언리얼 엔진으로 모델을 옮길 때 발생하는 문제를 해결하기 위해 모델의 텍스처와 재질을 최적화하는 기술을 습득했습니다. 이를 통해 모델의 디테일과 품질을 유지하면서도 다른 플랫폼 간의 호환성을 높일 수 있었습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">프레임워크 활용</td>
-                                            <td className="project-content">Flask와 Spring의 다양한 기능과 모듈을 활용하여 개발의 생산성을 높일 수 있는 방법을 배웠습니다.</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">성능 최적화</td>
-                                            <td className="project-content">서버 성능 최적화와 데이터베이스 최적화 기법을 통해 애플리케이션의 전체적인 성능을 향상시키는 방법을 터득했습니다.</td>
-                                        </tr>
-                                        <tr>
-                                            <td className="project-subtitle">협업의 중요성</td>
-                                            <td className="project-content">다양한 기술 스택과 도구를 사용하는 팀원들과의 원활한 협업을 통해 프로젝트를 성공적으로 완수하는 법을 익혔습니다.</td>
+                                            <td className="project-subtitle">문제 해결 능력 강화</td>
+                                            <td className="project-content">프로젝트 진행 중 발생한 문제를 분석하고 해결하기 위해 다양한 접근 방식을 시도하면서 문제 해결 능력을 강화할 수 있었습니다. 특히, 3D 모델링과 렌더링 과정에서 발생할 수 있는 문제를 예측하고 해결하는 방법을 터득했습니다.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -369,34 +368,34 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">아쉬웠던 점</td>                                    
+                                            <td className="project-subtitle">아쉬웠던 점</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">커뮤니케이션 부족</td>
-                                            <td className="project-content">초기 프로젝트 단계에서 팀 내 커뮤니케이션이 원활하지 않아 일정 지연과 작업 중복이 발생했습니다. 특히, 프론트엔드와 백엔드 팀 간의 의사소통 부재로 인해 통합 작업에서 여러 번의 충돌이 발생했습니다.</td>
+                                            <td className="project-subtitle">초기 모델링 툴 선택의 부족한 검토</td>
+                                            <td className="project-content">프로젝트 초기 단계에서 3D 모델링 툴을 선택할 때, 스케치업의 제한된 렌더링 퀄리티를 충분히 고려하지 못한 점이 아쉬웠습니다. 이로 인해 언리얼 엔진으로 옮길 때 모델의 퀄리티 저하 문제가 발생했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">테스트 자동화 미비</td>
-                                            <td className="project-content">테스트 자동화의 중요성을 인식하지 못해 프로젝트 후반부에서 버그가 빈번히 발생하였고, 이를 수정하는 데 많은 시간이 소요되었습니다.</td>
+                                            <td className="project-subtitle">리소스 및 시간 부족</td>
+                                            <td className="project-content">고품질의 3D 모델을 제작하고 최적화하는 데 필요한 리소스와 시간이 부족했습니다. 이로 인해 모델의 세부적인 디테일을 구현하는 데 한계가 있었으며, 프로젝트 일정이 지연되는 문제가 발생했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">기술 스택의 다양성 부족</td>
-                                            <td className="project-content">새로운 기술 도입에 대한 시도가 부족하여, 최신 기술 트렌드와 도구를 충분히 활용하지 못했습니다.</td>
+                                            <td className="project-subtitle">팀 내 전문성 부족</td>
+                                            <td className="project-content">팀원들이 3D 모델링과 언리얼 엔진을 사용하는 경험이 부족하여 초기에는 많은 시행착오를 겪었습니다. 이로 인해 프로젝트의 전반적인 진행 속도가 느려졌고, 품질 향상에 필요한 기술적 역량이 부족했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">보완 방법</td>                                    
+                                            <td className="project-subtitle">보완 방법</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">효과적인 커뮤니케이션 채널 구축</td>
-                                            <td className="project-content">정기적인 스크럼 회의와 협업 도구(Jira, Confluence 등)를 적극 활용하여 문제를 조기에 발견하고 해결할 수 있도록 하겠습니다. 또한, 팀 빌딩 활동을 통해 팀원 간의 신뢰를 강화하고, 다양한 관점을 공유할 수 있는 환경을 조성하겠습니다.</td>
+                                            <td className="project-subtitle">모델링 툴의 사전 검토 강화</td>
+                                            <td className="project-content">프로젝트 초기 단계에서 다양한 모델링 툴과 렌더링 엔진을 사전 검토하고, 각 툴의 특성과 한계를 충분히 이해한 후 적합한 툴을 선택하도록 하겠습니다. 이를 통해 나중에 발생할 수 있는 문제를 예방할 수 있습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">테스트 자동화 강화</td>
-                                            <td className="project-content">프로젝트 초기부터 테스트 자동화 도구(JUnit, Selenium 등)를 도입하고, CI/CD 파이프라인에 통합하여 코드 품질을 지속적으로 검증하겠습니다. 이를 통해 프로젝트 후반부의 버그를 사전에 예방하고, 유지보수성을 높이겠습니다.</td>
+                                            <td className="project-subtitle">리소스 및 일정 관리 강화</td>
+                                            <td className="project-content">프로젝트 계획 단계에서 충분한 리소스와 시간을 확보하고, 리소스 배분과 일정 관리를 철저히 하겠습니다. 이를 통해 모델링과 렌더링 작업의 품질을 높이고, 프로젝트 일정 내에 작업을 완료할 수 있도록 하겠습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">신기술 도입 및 학습</td>
-                                            <td className="project-content">최신 기술과 도구를 적극적으로 도입하고, 팀원들이 지속적으로 학습할 수 있는 환경을 조성하겠습니다. 예를 들어, 기술 세미나나 워크숍을 통해 최신 기술 동향을 파악하고, 이를 프로젝트에 적용하여 더욱 혁신적인 솔루션을 제공하겠습니다.</td>
+                                            <td className="project-subtitle">최신 기술 도입과 학습</td>
+                                            <td className="project-content">최신 3D 모델링 및 렌더링 기술을 지속적으로 학습하고, 프로젝트에 도입하여 품질을 향상시키겠습니다. 이를 통해 프로젝트의 전반적인 완성도를 높이고, 사용자에게 더 나은 경험을 제공할 수 있습니다.</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -408,29 +407,32 @@ const TableBook = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">문제 해결 능력</td>
-                                            <td className="project-content">프로젝트 중 발생한 여러 문제를 해결하면서, 문제의 근본 원인을 파악하고, 효과적인 해결 방안을 모색하는 능력을 키웠습니다. 특히, 데이터베이스 병목 현상을 해결하며 성능 최적화의 중요성을 깨달았습니다.</td>
+                                            <td className="project-subtitle">3D 모델링 및 렌더링 기술의 중요성</td>
+                                            <td className="project-content">이번 프로젝트를 통해 3D 모델링과 렌더링 기술의 중요성을 깊이 이해하게 되었습니다. 특히, 스케치업과 언리얼 엔진의 차이점을 체감하면서 각 툴의 강점과 약점을 명확히 알 수 있었습니다. 이를 통해 앞으로의 프로젝트에서는 더 적합한 툴을 선택할 수 있는 기준을 마련하게 되었습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">자기 주도적 학습</td>
-                                            <td className="project-content">새로운 기술과 도구를 스스로 학습하고, 이를 프로젝트에 적용해 보는 과정을 통해 자기 주도적 학습의 중요성을 실감했습니다. 특히, Docker와 Kubernetes를 통해 컨테이너화 및 오케스트레이션 기술을 익히며, 효율적인 자원 관리 방법을 배웠습니다.</td>
+                                            <td className="project-subtitle">효율적인 문제 해결 능력</td>
+                                            <td className="project-content">모델링 툴 변경으로 인한 퀄리티 저하 문제를 해결하기 위해 다양한 방법을 시도하면서 문제 해결 능력이 크게 향상되었습니다. 특히, 예기치 못한 문제에 직면했을 때 유연하게 대처하고, 최선의 해결책을 찾는 경험을 통해 문제 해결 능력을 배양할 수 있었습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">프레임워크 활용</td>
-                                            <td className="project-content">Flask와 Spring의 다양한 기능과 모듈을 활용하여 개발의 생산성을 높일 수 있는 방법을 배웠습니다.</td>
-                                        </tr>                                
+                                            <td className="project-subtitle">시간 관리 및 일정 준수의 필요성</td>
+                                            <td className="project-content">프로젝트 진행 중 시간 관리와 일정 준수의 중요성을 절감했습니다. 초기 계획 단계에서 충분한 시간을 확보하지 못한 것이 후반부에 영향을 미쳤고, 이를 통해 앞으로의 프로젝트에서는 보다 철저한 시간 관리와 일정 계획이 필요하다는 것을 깨달았습니다.</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </td>
                         </tr>
                         <tr>
-                            <td className="project-title">GIT 프로젝트 링크</td>
+                            <td className="project-title">프로젝트 링크</td>
                             <td className="project-content">
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">이 프로젝트는 SSAFY 에서 수행한 프로젝트 임으로 보안문제로 인해 개인 공유가 불가능 합니다 하지만 회사 입사시 제출 용으로는 제출 을 허락 받았으며 열람 하고 싶으신 분들은 연락 부탁드립니다</td>                                            
-                                        </tr>                                                                
+                                            <td className="project-subtitle">GIT HUB</td>
+                                            <td className="project-content">
+                                                <a href="https://github.com/mine702/capstone" target="_blank">https://github.com/mine702/capstone</a>
+                                            </td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </td>
