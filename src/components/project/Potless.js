@@ -1,13 +1,13 @@
 import React from 'react';
 import Slider from 'react-slick';
 import '../../css/Project.css';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PotlessFirstClass from "../../assets/projects/potless/PotlessFirstClass.jpg"
 import PotlessMain from "../../assets/projects/potless/PotlessMain.png"
 const images = [
     PotlessMain,
-    PotlessFirstClass, 
+    PotlessFirstClass,
 ];
 
 const Potless = ({ onClose }) => {
@@ -69,8 +69,7 @@ const Potless = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">BACKEND 개발</td>
-                                            <td className="project-content">서버 로직, API 개발, 데이터베이스 설계 및 통합</td>
+                                            <td className="project-subtitle">Backend 개발 및 인프라 담당</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -104,6 +103,15 @@ const Potless = ({ onClose }) => {
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">Gerrit</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">MySQL</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">redis</td>
+                                        </tr>
+                                        <tr>
+                                            <td className="project-subtitle">YOLO V8</td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -368,7 +376,7 @@ const Potless = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">아쉬웠던 점</td>                                    
+                                            <td className="project-subtitle">아쉬웠던 점</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">커뮤니케이션 부족</td>
@@ -383,7 +391,7 @@ const Potless = ({ onClose }) => {
                                             <td className="project-content">새로운 기술 도입에 대한 시도가 부족하여, 최신 기술 트렌드와 도구를 충분히 활용하지 못했습니다.</td>
                                         </tr>
                                         <tr>
-                                            <td className="project-subtitle">보완 방법</td>                                    
+                                            <td className="project-subtitle">보완 방법</td>
                                         </tr>
                                         <tr>
                                             <td className="project-subtitle">효과적인 커뮤니케이션 채널 구축</td>
@@ -417,7 +425,7 @@ const Potless = ({ onClose }) => {
                                         <tr>
                                             <td className="project-subtitle">프레임워크 활용</td>
                                             <td className="project-content">Flask와 Spring의 다양한 기능과 모듈을 활용하여 개발의 생산성을 높일 수 있는 방법을 배웠습니다.</td>
-                                        </tr>                                
+                                        </tr>
                                     </tbody>
                                 </table>
                             </td>
@@ -428,8 +436,8 @@ const Potless = ({ onClose }) => {
                                 <table className="inner-table">
                                     <tbody>
                                         <tr>
-                                            <td className="project-subtitle">이 프로젝트는 SSAFY 에서 수행한 프로젝트 임으로 보안문제로 인해 개인 공유가 불가능 합니다 하지만 회사 입사시 제출 용으로는 제출 을 허락 받았으며 열람 하고 싶으신 분들은 연락 부탁드립니다</td>                                            
-                                        </tr>                                                                
+                                            <td className="project-subtitle">이 프로젝트는 SSAFY 에서 수행한 프로젝트 임으로 보안문제로 인해 개인 공유가 불가능 합니다 하지만 회사 입사시 제출 용으로는 제출 을 허락 받았으며 열람 하고 싶으신 분들은 연락 부탁드립니다</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </td>
