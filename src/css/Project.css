@@ -10,7 +10,6 @@
     justify-content: center;
 }
 
-
 .modal-container {
     background-color: #13131b;
     padding: 20px;
@@ -19,6 +18,7 @@
     max-height: 80%;
     overflow-y: auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
 }
 
 h4 {
@@ -129,4 +129,8 @@ ul.no-bullets {
 
 .slick-dots li.slick-active button:before {
     color: #3498db; /* 활성화된 도트 색상 */
+}
+
+.project-content, .project-title, .project-subtitle {
+    color: #b0b0b0; /* 텍스트 색을 검정으로 설정 */
 }
