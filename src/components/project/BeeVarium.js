@@ -3,12 +3,16 @@ import Slider from 'react-slick';
 import '../../css/Project.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import PotlessFirstClass from "../../assets/projects/potless/PotlessFirstClass.jpg"
-import PotlessMain from "../../assets/projects/potless/PotlessMain.png"
+import Beevarium_1 from "../../assets/projects/beevarium/Beevarium_1.png"
+import Beevarium_2 from "../../assets/projects/beevarium/Beevarium_2.png"
+import Beevarium_3 from "../../assets/projects/beevarium/Beevarium_3.png"
+import Beevarium_4 from "../../assets/projects/beevarium/Beevarium_4.png"
 
 const images = [
-    PotlessMain,
-    PotlessFirstClass,
+    Beevarium_1,
+    Beevarium_2,
+    Beevarium_3,
+    Beevarium_4
 ];
 
 const Beevarium = ({ onClose }) => {
