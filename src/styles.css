@@ -1,3 +1,5 @@
+/* 스타일 파일의 나머지 코드 */
+
 @font-face {
     font-family: 'BMHANNAPro';
     src: url('./assets/fonts/BMHANNAPro.ttf') format('truetype');
@@ -8,7 +10,6 @@
 * {
     font-family: 'BMHANNAPro', sans-serif;
     color: white;
-    
 }
 
 body {
@@ -100,4 +101,24 @@ form button {
     background: #333;
     color: white;
     cursor: pointer;
+}
+
+/* 스크롤바 스타일 추가 */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #13131b; /* 스크롤바 트랙 배경색 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #333; /* 스크롤바 색상 */
+    border-radius: 6px;
+    border: 3px solid #13131b; /* 스크롤바와 트랙 사이의 간격 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* 호버 시 스크롤바 색상 */
 }

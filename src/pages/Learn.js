@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Element } from 'react-scroll';
 import '../css/Learn.css';
 import Querydsl from '../assets/certificate/Querydsl.jpg';
@@ -49,6 +49,7 @@ const Learn = () => {
         });
     };
 
+    
     const courses = {
         backend: [
             { name: '스프링 핵심 원리 - 기본편', image: Spring_BasicPart },
