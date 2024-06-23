@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.296bd4a1.css",
-    "main.js": "/my-portfolio/static/js/main.2a74a3e0.js",
+    "main.css": "/my-portfolio/static/css/main.0f4e7c91.css",
+    "main.js": "/my-portfolio/static/js/main.e5615315.js",
+    "static/media/PotlessFirstClass.jpg": "/my-portfolio/static/media/PotlessFirstClass.efcf8fd1924a2c4483f8.jpg",
+    "static/media/Beevarium_1.png": "/my-portfolio/static/media/Beevarium_1.070fddc8d919179eebdf.png",
+    "static/media/Pennypal1.png": "/my-portfolio/static/media/Pennypal1.fbef33e2b8f7f37eef70.png",
+    "static/media/Pennypal.png": "/my-portfolio/static/media/Pennypal.917e723d5a65d4fb5f6a.png",
     "static/media/BMHANNAPro.ttf": "/my-portfolio/static/media/BMHANNAPro.6d112976783f574c849d.ttf",
     "static/media/SpringBoot_JPA_application_2.jpg": "/my-portfolio/static/media/SpringBoot_JPA_application_2.165b5374f9621d059064.jpg",
     "static/media/SpringBoot_JPA_application_1.jpg": "/my-portfolio/static/media/SpringBoot_JPA_application_1.91fbb51011abab545fee.jpg",
@@ -15,15 +19,27 @@
     "static/media/Http.jpg": "/my-portfolio/static/media/Http.2cc31cb187cf8fd185f7.jpg",
     "static/media/Spring_BasicPart.jpg": "/my-portfolio/static/media/Spring_BasicPart.40843e5e1646c0b73087.jpg",
     "static/media/Spring_Data_JPA.jpg": "/my-portfolio/static/media/Spring_Data_JPA.ed27ad4d454b4cd7ba70.jpg",
+    "static/media/PotlessMain.png": "/my-portfolio/static/media/PotlessMain.9300a38796f39b96f79f.png",
+    "static/media/Beevarium_4.png": "/my-portfolio/static/media/Beevarium_4.534404110ff050333514.png",
     "static/media/YOLO.jpg": "/my-portfolio/static/media/YOLO.295f6c1f70d1495bede8.jpg",
     "static/media/Querydsl.jpg": "/my-portfolio/static/media/Querydsl.da06535912a605e60a7c.jpg",
+    "static/media/TableBook_2.png": "/my-portfolio/static/media/TableBook_2.8eab50511b72dd299b42.png",
+    "static/media/BlockChain_1.png": "/my-portfolio/static/media/BlockChain_1.2e2c89fcc2902bd96ddb.png",
+    "static/media/TableBook_1.png": "/my-portfolio/static/media/TableBook_1.656b7631070e7fa0e71d.png",
+    "static/media/Beevarium_2.png": "/my-portfolio/static/media/Beevarium_2.fe779041cc45470f0cb8.png",
+    "static/media/BlockChain_2.png": "/my-portfolio/static/media/BlockChain_2.f62d316d821147c149e8.png",
+    "static/media/Beevarium_3.png": "/my-portfolio/static/media/Beevarium_3.fbd0385923e3c81894b0.png",
     "static/media/github-logo.png": "/my-portfolio/static/media/github-logo.3b82e95800bf49ef18af.png",
+    "static/media/slick.svg": "/my-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/my-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/my-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/my-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/my-portfolio/index.html",
-    "main.296bd4a1.css.map": "/my-portfolio/static/css/main.296bd4a1.css.map",
-    "main.2a74a3e0.js.map": "/my-portfolio/static/js/main.2a74a3e0.js.map"
+    "main.0f4e7c91.css.map": "/my-portfolio/static/css/main.0f4e7c91.css.map",
+    "main.e5615315.js.map": "/my-portfolio/static/js/main.e5615315.js.map"
   },
   "entrypoints": [
-    "static/css/main.296bd4a1.css",
-    "static/js/main.2a74a3e0.js"
+    "static/css/main.0f4e7c91.css",
+    "static/js/main.e5615315.js"
   ]
 }
